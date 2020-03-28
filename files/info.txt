@@ -1,0 +1,144 @@
+Not a game V0.1.5.190921_Beta
+updates:
+Optimize the GUI interface, remove the pyGame interface, 
+players enter the menu bar before the game, 
+can set the game content (map size, screen zooming, whether full screen operation, etc.). 
+When the game is over, the main menu can be returned, and the settings can be changed again, 
+the game can be entered or the game can be quit.
+The system will record the highest score and the data will not be reset after quitting the game.
+Adding the game information button in the upper right corner, 
+Click to view the update log, the operation method of the game (see from the log),
+ the author's contact information (infringement of material can be linked), matters needing attention, etc. 
+Note: Because I can't speak Chinese, all English logs are from Baidu Translator
+Added the main menu game background
+* Mouse angle tracking is added to the game to make the picture (look) smoother.
+Add the left mouse button to hold down and fire (so that my mouse will not be scrapped),
+ but the firing frequency is low, you can still do it manually if you want to be quick. 
+The right mouse button (tracking artillery shells) still fires manually.
+Replaced the background color of the game (yellow looks a bit annoying)
+Problem: When the operation is too fast, the application will not respond to the small probability, the reason is not clear..
+
+
+Not a game v0.1.4.190917_Beta
+There is no content update for this update.
+Quality Update:
+Perfect solution to the problem of wall jam that existed before! 
+More balanced scoring rules: The bonus points are set after killing each wave of enemies / turrets / bosses, 
+which generally reduces the difficulty of the game (otherwise no one can hit the last boss .
+Replacement of the outer wall sticker (the original sticker is too strong to look good.
+Optimize the volume of the sound, mainly by reducing the volume, removing the parts with too much intensity (so as not to damage the hearing), fading in and out more naturally.
+
+
+Not a game v0.1.3.190824_Beta
+The content of this update:
+Adding an artillery shell [em] E403 [/em], automatically tracking and attacking the nearest enemy, 
+right-clicking the attack points point by point, and no speed cap (so this is a hand-to-hand game?!)
+* Updated 8 bosses, super weird stickers?! Similarly, after killing the current boss, the difficulty of generating random locations on the map (away from the player) gradually increases (exponential?).
+After killing the boss, the player's attributes will also be improved.
+The number of small enemy soldiers and turrets in the map will be destroyed to a certain extent, 
+and the number of turrets and small soldiers will be randomly increased in the random location of the map . 
+At the same time, the enemy attributes will be enhanced (of course, the killing bonus will also be increased)!
+More explosive animation, more accurate sound effects! [em]e403[/em]
+This time it really optimizes performance and greatly improves the game's fluency by controlling the range of depiction and the range of bullets. 
+At present, each frame processing time can be maintained within 0.010s (more than 100 frames)
+The game balance (attributes of attack and defense, scoring rules, etc.) has been improved.
+
+
+Not a game v0.1.2.190821
+updates:
+The problem that wall-mounted shooting will be instantaneous is solved.
+It is accurate to say that there is a very high probability of no instantaneous movement (not 100%). 
+The specific method is that the wall jamming caused by shooting will cause small random movement, 
+and the test probability does not produce instantaneous movement (it is better than the original 100% wall jamming [em] e249 [/em]).
+Adding a circle of walls to the outer layers of random maps. The amount of blood on the outer walls has been greatly increased (5000), and can still be destroyed! 
+Mainly to prevent bullets flying out of the wall waste CPU resources [em]e244[/em]
+Replaced BGM (tired of listening before)
+Functions to be updated:
+Give players more weapons
+Adding Bullet Hit Error
+Adding range damage to the explosion (currently only visual effects are harmless)
+Optimizing incentive systems, such as collecting weapons and equipment
+
+
+Update on August 20
+Not a game v0.1.1.190820_Beta
+updates:
+· Fixed the problem that the amount of attacked blood increased in later players.
+· Balancing the attack and defense of the player and the enemy, increasing the difficulty of the game, the player is more likely to die??!
+· Two buttons have been added to the game's start interface. Now players can customize random map size and screen zoom ratio - SIZE can adjust map size from 50*50 to 800*800 (default 100*100), step size 50;
+ SCALING can adjust zoom ratio from 0.1 to 1 (default 0.3). The player can adjust it freely according to the game experience and computer performance (the larger the map, the more smoothly the zoom ratio is.
+To ensure the game experience, please make sure the processing time in the upper left corner is within 0.02s)
+· Enhanced boss: Attacking boss in the early stage will increase the amount of blood [em] e402 [/em], 
+and the bullet of boss will increase a kind of automatic tracking player, fast speed, standing immovable hit rate of 100%, 
+special effects and missiles (because lazy cutting explosive material [em] e401 [/em]), may lead to carton?! But the damage is small (still fatal). 
+So don't challenge the boss in the early stage!!
+· Added a boss, after the death of the first boss generated in the map random location (away from the player) blood defense doubled, 
+sticker ugly? Let's start with [em] e401 [/em], we can't find a new one for the time being.
+· Replace the character with a new sticker (because someone says ugly [em] E141 [/em]) to zoom in and enjoy the map slowly
+· Changed the sound effect (playback time is more accurate)
+· Pretend to optimize performance
+Still existing problems:
+1. Attacks against walls can be instantaneous because there is no round collision detection. 
+Who knows that the principle of round collision detection can save me [em] E105 [/em]
+2. Exit after entering the game can not re-enter (still stuck) the problem, because can not find the reason,
+ this version directly defaults to exit the game that is to close the program, so every game must be restarted!! (This is better than a computer jam.)
+
+
+v0.1
+The second game I wrote with Python [em] e400342 [/em],
+ lasted more than a week, more than a thousand lines of code (of course, most of the time to collect and process materials), 
+and it took me two or three days to pack and trample on countless pits [em] E105 [/em]
+Game Features: No bugs?
+Game Play: How to Play
+About Name: Why not a game?? I don't know, it always has a name! [em] e401 [/em]
+About the content of the game: At present, the game only completes the general framework, temporarily only one boss, 
+a random map (about 10,000 blocks, the generation method refers to the random map generation algorithm of Tyra Dunya - so a bit like [em] E403 [/em]), 
+each box in the map can be destroyed!
+ There is an enemy soldier, two turrets (one is straight). Shoot, another kind of shell will track the player,
+ of course, will join more enemies in the future! Players only have one kind of shell, 
+the attack speed depends on the hand speed (theoretical upper limit 60/s) [em]e402[/em]
+About the operation: Attack - mouse click, will automatically shoot in the direction of the mouse; 
+Move - the conventional WSAD movement according to the screen up and down rather than according to the player moving towards the next version [em] e400101 [/em];
+ Esc exit/enter the full screen, default to enter the game is the full screen, 
+exit the game please exit the full screen after closing. window
+About attribute calculation: at present, the hit rate in the game is 100% (the hit error may be added later),
+ the player's initial blood volume (HP) 50000, attack (ATK) 50, defense (DEF) 50, speed (SPD) 4 square/s; 
+there are three additions in the venue: yellow for Defense + 10, blue for attack + 10, cross for blood 500, tire traces for speed + 0.1; 
+integral calculation for play. Home hit enemy is + 1, hit - 1, score / 5 will add to the player's attack, score / 3 will add to the defense 
+(so you can hit the enemy to enhance the player) 
+the player's attack damage is * 0.8 to 1.2 times the attack power;
+ enemy small soldier's blood volume is 100 * 1 to 8 times (decided at the time of initialization), defenseless, bullet damage 100, bullet speed 5-8 random, small soldier. 
+Collision with players is harmful, direct blood volume is reduced!!;
+ enemy direct fire turret damage is 50*1 to 5 times, speed is random, blood volume is 5,000; 
+missile turret damage is 1,000*1 to 5 times, speed is random, blood volume is 5,000, 
+tracking missile speed and player into a greater than 30 degree angle will self-destruct; each map block's blood volume is 500; turret attack damage to players is bullet injury.
+ Damage-Player Defense (where a bug causes later players to be attacked and blooded, and will be repaired in the next version) Players will be revived at random after death. 
+As for the boss, there is only one boss who can track players through the wall, and there are two kinds of bullets - Strange Tracking Missile (through the wall); 
+Damage 2000*0.5 to 3 times and Purple Artillery (without the wall; 
+Damage 2; 00 + There is a problem in calculating the angle of the projectile (cos90 is placed in denominator), so it seems a little strange.
+ Boss blood 50,000 (same player), 
+all enemy bullets can be avoided (as long as the operation is sufficiently coquettish [em] E403 [/em]) Boss is not rewarded after death??
+ Can you continue to play / enjoy this random map?/Wait for updates.
+
+About the plot: no plot (no writing)
+About material: mostly from the network, intrusion and deletion; 
+resource files are placed in the attached files folder.... 
+If you feel that the game is not good-looking, you can replace [em] e400101[/em] by yourself. 
+Of course, my spare material has been put in. 
+Welcome to provide good-looking material [em] e402[/em]
+Note: In the red circle below is the player [em] e400101 [/em] game, 
+it is recommended not to break the peripheral box and run outside the map (of course, it can not stop you), 
+but every shell in the game takes up processing time until it explodes,
+ and the shell running out of the wall will always exist in the map to occupy memory!! 
+Processing time (usually more than 0.02s will start to feel Carton, the current 150*150 square basically can be controlled within 0.02s -
+ as long as not running around); currently does not say that all are sent 150*150 maps, 
+if you want a better game experience can customize a larger random map, can you play to see the computer configuration, 
+the map initialization will take a long time (objective). 
+The first is less than 1s; and because there is no pyGame round collision detection 
+(pygame is used to play sound and make a start interface [em] e401 [/em], 
+the main body of the game does not use pygame) so try not to stick to the box attack, will be stuck in....
+ This problem can not be solved for the time being [em] e401 [/em] (until I fully understand the circular collision detection).
+ Write one yourself) There are other bugs that you are welcome to point out...
+
+
+
