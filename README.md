@@ -27,5 +27,8 @@ main.py为源码，file文件夹为素材文件，素材文件中有备用素材
 
 主要用到的模块：arcade
 
-构建于：python 3.7  arcade 2.3.7 pygame1.9.6 （pygame只是播放背景音乐的作用）
+构建于：
+python 3.7  
+arcade 2.3.7 
+pygame1.9.6 （pygame只是播放背景音乐的作用）
 
