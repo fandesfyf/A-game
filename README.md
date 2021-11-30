@@ -5,12 +5,12 @@ a small game  built with Python
 虽然有点简陋,但作为入门级别的代码还是有参考价值的
 
 # 游戏截图：
-![image](https://github.com/fandesfyf/A-game/blob/master/image/9e8419daf90159c2a2561c888857b58.png)
-![image](https://github.com/fandesfyf/A-game/blob/master/image/e92e7577be49998e3c8c8b8a3325bbc.png)
-![image](https://github.com/fandesfyf/A-game/blob/master/image/1c8299b72fe91470909fe7f04eb15e9.png)
-![image](https://github.com/fandesfyf/A-game/blob/master/image/115f625741609b62bf2942832744305.png)
-![image](https://github.com/fandesfyf/A-game/blob/master/image/581cab9872d5c8399535ef8aee4937b.png)
-![image](https://github.com/fandesfyf/A-game/blob/master/image/77666a796e50dfe203393a3d3c3ff39.png)
+![image](image/9e8419daf90159c2a2561c888857b58.png)
+![image](image/e92e7577be49998e3c8c8b8a3325bbc.png)
+![image](image/1c8299b72fe91470909fe7f04eb15e9.png)
+![image](image/115f625741609b62bf2942832744305.png)
+![image](image/581cab9872d5c8399535ef8aee4937b.png)
+![image](image/77666a796e50dfe203393a3d3c3ff39.png)
 
 # 游戏玩法
 随机地图
